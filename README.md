@@ -2,8 +2,8 @@
 #### LiveData, ViewModel, Room, 코틀린 등의 기술 실습
 ---
 
-**1.DiceRoller : 주사위던지기 ( 안드로이드 기본에 관한 설명 )**
+**Lesson 1.기본 코틀린 문법 : DiceRoller**
 
-**2.AboutMe : 나에 대해서 ( 레이아웃 )**
+**Lesson 2.레이아웃 : AboutMe, ColorMyViews**
 
-**3.ColorMyViews : (ConstrantLayout)**
+**Lesson 3.**
