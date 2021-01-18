@@ -15,9 +15,13 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    private val myName: MyName = MyName("Brand")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        binding.myName = myName
 
         binding.doneButton.setOnClickListener {
             addNickName(it)
@@ -27,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     private fun addNickName(view: View) {
 
         binding.apply {
-            nicknameText.text = nicknameEdit.text
+            myName?.nickname = nicknameEdit.text.toString()
             invalidateAll() //새로고침과 같음. 데이터의 변화를 알림
             nicknameEdit.visibility = View.GONE
             doneButton.visibility = View.GONE
