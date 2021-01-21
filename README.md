@@ -6,4 +6,4 @@
 
 **Lesson 2.레이아웃 : AboutMe, ColorMyViews**
 
-**Lesson 3.**
+**Lesson 3.Fragment : Trivia**
