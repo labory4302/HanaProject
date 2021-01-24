@@ -56,12 +56,7 @@ class GameFragment : Fragment() {
         //이미 연결된 상태에서 폰이 돌아가거나 앱을 나갔다가 들어와도 뮤보델은 죽지 않음
         viewModel = ViewModelProvider(this).get(GameViewModel::class.java)
 
-        binding.correctButton.setOnClickListener {
-            viewModel.onCorrect()
-        }
-        binding.skipButton.setOnClickListener {
-            viewModel.onSkip()
-        }
+        binding.gameViewModel = viewModel
 
         //score를 LiveData와 연결
         viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
