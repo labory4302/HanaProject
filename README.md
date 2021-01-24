@@ -4,6 +4,10 @@
 
 **Lesson 1.기본 코틀린 문법 : DiceRoller**
 
-**Lesson 2.레이아웃 : AboutMe, ColorMyViews**
+**Lesson 2.레이아웃 : AboutMe브랜치, ColorMyViews브랜치**
 
-**Lesson 3.Fragment : Trivia**
+**Lesson 3.Fragment : Trivia브랜치**
+
+...
+
+**Lesson 5.아키텍쳐, ViewModel, LiveData, DataBinding : GuessIt브랜치**
