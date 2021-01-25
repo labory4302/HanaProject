@@ -1,5 +1,5 @@
 ## TrackMySleepQualityStarter
-####  ( Fragment )
+####  ( 아키텍쳐, ViewModel, LiveData, RoomDB )
 ---
 
 **내용**
