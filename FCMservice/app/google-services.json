@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "397321638138",
+    "project_id": "summerserver-c1b86",
+    "storage_bucket": "summerserver-c1b86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397321638138:android:04cad922717c77ce5d3943",
+        "android_client_info": {
+          "package_name": "com.example.fcmservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397321638138-4833ddmi75lm3tvk0o7318s7sfukvhtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGp6F4Q_E4WWkoPaNW27wviEAd72RFtdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397321638138-4833ddmi75lm3tvk0o7318s7sfukvhtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
