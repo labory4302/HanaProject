@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FCMservice</string>
+    <string name="firebase_notification_channel_id">summerServerMessage</string>
 </resources>
